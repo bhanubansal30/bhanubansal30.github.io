@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair:ital,wght@1,700&family=Poppins:wght@100;200;800&family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair:ital,wght@0,900;1,700&family=Poppins:wght@100;200;800&family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair:ital,wght@0,900;1,700;1,900&family=Poppins:wght@100;200;800&family=Roboto+Condensed:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+.sidebar{
+    position:absolute;
+    background-color: rgb(226, 222, 222);
+    width:334px;
+    font-family: 'Playfair', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+height:100vh;
+transition: tranform 0.3s ease-in;
+}
+.main{
+    /* background-color: black; */
+    width:84vw;
+    font-family: 'Playfair', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+.container{
+    display:flex;
+}
+.sidebar nav{
+    padding:28px;
+   
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 35px;
+    padding:33px ;
+}
+.infocontainer{
+    /* background-color: red; */
+    height:60vh;
+    width:70vw;
+    margin:130px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+  height:60vh;
+}
+.devinfo{
+    display:flex;
+    /* align-self: center; */
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Playfair', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.hello{
+    font-size:50px
+}
+.name{
+    font-size:40px;
+  color:darkgreen;
+  font-weight:bold;
+  font-family: 'Playfair', serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.moreabout{
+   
+    font-size:15px;
+    margin:2px;
+    font-family: 'Playfair', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.about{
+    font-size:20px;
+}
+.btn button{
+    padding:15px 14px;
+    color:white;
+    background-color: blue;
+    border-radius:23px; 
+    margin:0px 3px ;
+    font: size 21px;
+    font-weight:bold ;
+    cursor: pointer;
+
+}
+.btn{
+    margin-top: 24px;
+
+}
+.btn button:hover{
+    background-color:white;
+    color:dodgerblue
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color:black
+}
+.hamburger {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor:pointer;
+}
+.ham{
+    margin-top: 10px;
+    margin-left:10px ;
+}
+.cross {
+    margin-left: 276px;
+}
+@media (max-width: 1560px){
+    .sidebargo{
+         transform: translate(-443px,0px);
+         position:absolute;
+    }
+}
+@media (max-width:541px){
+.devpic{
+    display:none;
+}
+}
